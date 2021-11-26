@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: #3E3E3E;
+    font-size: x-small;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+}
+header a{
+    color: white;
+    text-decoration: unset;
+}
+
+nav{
+    background-color: #3E3E3E;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: small;
+    padding-bottom: 15px;
+}
+
+nav a{
+    color: white;
+    text-decoration: unset;
+}
