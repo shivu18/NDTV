@@ -1,28 +1,55 @@
 body{
     margin: 0;
+    padding: 0;
 }
 header{
     background-color: #3E3E3E;
-    font-size: x-small;
-    height: 50px;
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 15px;
+    font-size: 9px;
+    height: 20px;
+    padding: 2px 25px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-align: center;
+    width: 100%;
+
 }
 header a{
-    color: white;
+    color: #c6c6c6;
     text-decoration: unset;
+    letter-spacing: 0.9px;
+    margin:0 24px 0 8px ;  
+    text-transform: uppercase;
+    
 }
 
 nav{
     background-color: #3E3E3E;
-    display: flex;
-    justify-content: space-evenly;
-    font-size: small;
-    padding-bottom: 15px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 13px;
+    font-family: sans-serif;
+    letter-spacing: 0.9px;
+    line-height: 15px;
+    padding: 14px;
+    
 }
 
 nav a{
     color: white;
     text-decoration: unset;
+    margin:0 15px 0 5px ;  
+    display: inline-block;
+    justify-content: center; 
+    
+}
+.logo{
+    padding-bottom: 2px;
+    margin:0 24px 0 49px ;  
+    display: inline-block;
+    justify-content: center;
+}
+
+nav div{
+    display: inline-flex;
+    
 }
